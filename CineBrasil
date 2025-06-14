@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cine Brasil</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #000;
+            color: white;
+            padding: 50px 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        header img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        header h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        .movies {
+            margin-top: 100px;
+            margin-left: 120px;
+            display: flex;
+            align-items: flex-start;
+            gap: 30px;
+            margin-bottom: 80px;
+        }
+
+        .movies img.filme {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .paragrafo-com-borda {
+            max-width: 500px;
+            padding: 20px;
+            background-color: white;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            font-size: 16px;
+            line-height: 1.6;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        .nota {
+            position: absolute;
+            top: 10px;
+            right: -70px;
+            background-color: #f39c12;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 50%;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="https://marketplace.canva.com/N2Y1c/MAEbiyN2Y1c/1/tl/canva-user-profile-avatar-MAEbiyN2Y1c.png" alt="Imagem de usuário">
+        <h1>Nome do Usuário</h1>
+    </header>
+
+    <!-- Seção 1: O Auto da Compadecida -->
+    <div class="movies">
+        <img class="filme" src="https://upload.wikimedia.org/wikipedia/pt/thumb/b/bf/O_auto_da_compadecida.jpg/250px-O_auto_da_compadecida.jpg" alt="Capa de O Auto da Compadecida">
+        <div class="paragrafo-com-borda">
+            <p>
+                <strong>O Auto da Compadecida</strong><br>
+                As aventuras dos nordestinos João Grilo, um sertanejo pobre e mentiroso, e Chicó, o mais covarde dos homens. A dupla luta para sobreviver aplicando golpes no pequeno vilarejo de Taperoá, no sertão da Paraíba - nem o temido cangaceiro Severino de Aracaju escapa das artimanhas de João Grilo e Chicó. A dupla tem a chance de se redimir com a aparição de Nossa Senhora.
+            </p>
+            <span class="nota">4.8/5</span>
+        </div>
+    </div>
+
+    <!-- Seção 2: Tropa de Elite -->
+    <div class="movies">
+        <img class="filme" src="https://a-static.mlcdn.com.br/1500x1500/poster-cartaz-tropa-de-elite-a-pop-arte-poster/poparteskins2/15938550422/1bb7b0dabbf026ae881dbedf758413f0.jpeg" alt="Capa de Tropa de Elite">
+        <div class="paragrafo-com-borda">
+            <p>
+                <strong>Tropa de Elite</strong><br>
+                Nascimento, capitão da tropa de elite do Rio de Janeiro, é escolhido para chefiar uma das equipes cuja missão é apaziguar o Morro do Turano. Ele precisa cumprir as ordens enquanto procura por um substituto para ficar em seu lugar. Em meio a um tiroteio, Nascimento e sua equipe resgatam Neto e Matias, dois aspirantes a oficiais da PM. Ansiosos para entrar em ação, os dois se candidatam ao curso de formação do Batalhão de Operações Policiais Especiais.
+            </p>
+            <span class="nota">4.9/5</span>
+        </div>
+    </div>
+
+    <!-- Seção 3: O Menino e o Mundo -->
+    <div class="movies">
+        <img class="filme" src="https://upload.wikimedia.org/wikipedia/pt/c/cb/O_menino_e_o_mundo.jpg" alt="Capa de O Menino e o Mundo">
+        <div class="paragrafo-com-borda">
+            <p>
+                <strong>O Menino e o Mundo</strong><br>
+                Um menino mora com os pais em uma pequena cidade do campo. Diante da falta de trabalho, um dia, ele vê o pai partindo para a cidade grande. Os dias que se seguem são tristes e de memórias confusas para o garoto. Até que então ele faz as malas, pega o trem e vai descobrir o novo mundo em que seu pai mora. Para a sua surpresa, a criança encontra uma sociedade marcada pela pobreza, exploração de trabalhadores e falta de perspectivas.
+            </p>
+            <span class="nota">4.8/5</span>
+        </div>
+    </div>
+
+    <!-- Seção 4: Minha Mãe É Uma Peça -->
+    <div class="movies">
+        <img class="filme" src="https://m.media-amazon.com/images/I/91nBPp3ZijL._UF894,1000_QL80_.jpg" alt="Capa de Minha Mãe É Uma Peça">
+        <div class="paragrafo-com-borda">
+            <p>
+                <strong>Minha Mãe É Uma Peça</strong><br>
+                Conta a história de Dona Hermínia, uma mãe hiperprotetora e com um jeito peculiar de ser, que se sente desorientada quando seus filhos, Marcelina e Juliano, começam a se tornar adultos e a ter suas próprias vidas.
+            </p>
+            <span class="nota">4.8/5</span>
+        </div>
+    </div>
+
+    <!-- Seção 5: O Homem Que Copiava -->
+    <div class="movies">
+        <img class="filme" src="https://media.fstatic.com/JueeNKsUUG5gNgyi2eVT6dGKmk0=/322x478/smart/filters:format(webp)/media/movies/covers/2020/08/funeste_kMMZrjp.jpg" alt="Capa de O Homem Que Copiava">
+        <div class="paragrafo-com-borda">
+            <p>
+                <strong>O Homem Que Copiava</strong><br>
+                André é um jovem humilde de 20 anos que trabalha na fotocopiadora da papelaria Gomide em Porto Alegre. Ele mora com a mãe e tem uma vida comum fazendo sempre as mesmas coisas. Um dia, André se apaixona pela sua vizinha, Sílvia, que ele observa usando binóculos em seu quarto. Decidido a conhecê-la de verdade, André descobre que ela trabalha em uma loja de roupas. Agora, ele precisa de 38 reais para comprar um presente para a mãe na loja e ter uma desculpa para ver Sílvia de novo.
+            </p>
+            <span class="nota">4.8/5</span>
+        </div>
+    </div>
+
+</body>
+</html>
